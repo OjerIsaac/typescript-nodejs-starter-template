@@ -17,6 +17,8 @@ Typescript Nodejs Starter Template
 - Setup environment variable
 - `cp .env.example .env`
 - Update configurations in .env
+- Run build
+- `yarn run build`
 
 ## Documentation link
 
