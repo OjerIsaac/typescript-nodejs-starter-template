@@ -1,11 +1,13 @@
 {
   "name": "typescript-nodejs-starter-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.ts",
-  "author": "",
+  "main": "index.js",
+  "repository": "git@github.com:OjerIsaac/typescript-nodejs-starter-template.git",
+  "author": "OjerIsaac <isaacojerumu@gmail.com>",
   "license": "UNLICENSED",
-  "private": true,
+  "scripts": {
+    "build": "rimraf ./build && tsc"
+  },
   "dependencies": {
     "@types/node": "^20.8.10",
     "typescript": "^5.2.2"
